@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15533D4D1D43D2A300F2293D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15533D4C1D43D2A300F2293D /* AppDelegate.swift */; };
+		15533D4F1D43D2A300F2293D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15533D4E1D43D2A300F2293D /* ViewController.swift */; };
+		15533D521D43D2A300F2293D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15533D501D43D2A300F2293D /* Main.storyboard */; };
+		15533D541D43D2A300F2293D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15533D531D43D2A300F2293D /* Assets.xcassets */; };
+		15533D571D43D2A300F2293D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15533D551D43D2A300F2293D /* LaunchScreen.storyboard */; };
+		15533D621D43D2A300F2293D /* PedaladadaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15533D611D43D2A300F2293D /* PedaladadaAppTests.swift */; };
+		15533D6D1D43D2A300F2293D /* PedaladadaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15533D6C1D43D2A300F2293D /* PedaladadaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15533D5E1D43D2A300F2293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15533D411D43D2A200F2293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15533D481D43D2A200F2293D;
+			remoteInfo = PedaladadaApp;
+		};
+		15533D691D43D2A300F2293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15533D411D43D2A200F2293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15533D481D43D2A200F2293D;
+			remoteInfo = PedaladadaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15533D491D43D2A200F2293D /* PedaladadaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedaladadaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15533D4C1D43D2A300F2293D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15533D4E1D43D2A300F2293D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15533D511D43D2A300F2293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15533D531D43D2A300F2293D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15533D561D43D2A300F2293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15533D581D43D2A300F2293D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15533D5D1D43D2A300F2293D /* PedaladadaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedaladadaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15533D611D43D2A300F2293D /* PedaladadaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedaladadaAppTests.swift; sourceTree = "<group>"; };
+		15533D631D43D2A300F2293D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15533D681D43D2A300F2293D /* PedaladadaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedaladadaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15533D6C1D43D2A300F2293D /* PedaladadaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedaladadaAppUITests.swift; sourceTree = "<group>"; };
+		15533D6E1D43D2A300F2293D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15533D461D43D2A200F2293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D5A1D43D2A300F2293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D651D43D2A300F2293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15533D401D43D2A100F2293D = {
+			isa = PBXGroup;
+			children = (
+				15533D4B1D43D2A300F2293D /* PedaladadaApp */,
+				15533D601D43D2A300F2293D /* PedaladadaAppTests */,
+				15533D6B1D43D2A300F2293D /* PedaladadaAppUITests */,
+				15533D4A1D43D2A200F2293D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15533D4A1D43D2A200F2293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15533D491D43D2A200F2293D /* PedaladadaApp.app */,
+				15533D5D1D43D2A300F2293D /* PedaladadaAppTests.xctest */,
+				15533D681D43D2A300F2293D /* PedaladadaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15533D4B1D43D2A300F2293D /* PedaladadaApp */ = {
+			isa = PBXGroup;
+			children = (
+				15533D4C1D43D2A300F2293D /* AppDelegate.swift */,
+				15533D4E1D43D2A300F2293D /* ViewController.swift */,
+				15533D501D43D2A300F2293D /* Main.storyboard */,
+				15533D531D43D2A300F2293D /* Assets.xcassets */,
+				15533D551D43D2A300F2293D /* LaunchScreen.storyboard */,
+				15533D581D43D2A300F2293D /* Info.plist */,
+			);
+			path = PedaladadaApp;
+			sourceTree = "<group>";
+		};
+		15533D601D43D2A300F2293D /* PedaladadaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				15533D611D43D2A300F2293D /* PedaladadaAppTests.swift */,
+				15533D631D43D2A300F2293D /* Info.plist */,
+			);
+			path = PedaladadaAppTests;
+			sourceTree = "<group>";
+		};
+		15533D6B1D43D2A300F2293D /* PedaladadaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15533D6C1D43D2A300F2293D /* PedaladadaAppUITests.swift */,
+				15533D6E1D43D2A300F2293D /* Info.plist */,
+			);
+			path = PedaladadaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15533D481D43D2A200F2293D /* PedaladadaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15533D711D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaApp" */;
+			buildPhases = (
+				15533D451D43D2A200F2293D /* Sources */,
+				15533D461D43D2A200F2293D /* Frameworks */,
+				15533D471D43D2A200F2293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PedaladadaApp;
+			productName = PedaladadaApp;
+			productReference = 15533D491D43D2A200F2293D /* PedaladadaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15533D5C1D43D2A300F2293D /* PedaladadaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15533D741D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaAppTests" */;
+			buildPhases = (
+				15533D591D43D2A300F2293D /* Sources */,
+				15533D5A1D43D2A300F2293D /* Frameworks */,
+				15533D5B1D43D2A300F2293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15533D5F1D43D2A300F2293D /* PBXTargetDependency */,
+			);
+			name = PedaladadaAppTests;
+			productName = PedaladadaAppTests;
+			productReference = 15533D5D1D43D2A300F2293D /* PedaladadaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15533D671D43D2A300F2293D /* PedaladadaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15533D771D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaAppUITests" */;
+			buildPhases = (
+				15533D641D43D2A300F2293D /* Sources */,
+				15533D651D43D2A300F2293D /* Frameworks */,
+				15533D661D43D2A300F2293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15533D6A1D43D2A300F2293D /* PBXTargetDependency */,
+			);
+			name = PedaladadaAppUITests;
+			productName = PedaladadaAppUITests;
+			productReference = 15533D681D43D2A300F2293D /* PedaladadaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15533D411D43D2A200F2293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bruno;
+				TargetAttributes = {
+					15533D481D43D2A200F2293D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					15533D5C1D43D2A300F2293D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15533D481D43D2A200F2293D;
+					};
+					15533D671D43D2A300F2293D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15533D481D43D2A200F2293D;
+					};
+				};
+			};
+			buildConfigurationList = 15533D441D43D2A200F2293D /* Build configuration list for PBXProject "PedaladadaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15533D401D43D2A100F2293D;
+			productRefGroup = 15533D4A1D43D2A200F2293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15533D481D43D2A200F2293D /* PedaladadaApp */,
+				15533D5C1D43D2A300F2293D /* PedaladadaAppTests */,
+				15533D671D43D2A300F2293D /* PedaladadaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15533D471D43D2A200F2293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15533D571D43D2A300F2293D /* LaunchScreen.storyboard in Resources */,
+				15533D541D43D2A300F2293D /* Assets.xcassets in Resources */,
+				15533D521D43D2A300F2293D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D5B1D43D2A300F2293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D661D43D2A300F2293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15533D451D43D2A200F2293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15533D4F1D43D2A300F2293D /* ViewController.swift in Sources */,
+				15533D4D1D43D2A300F2293D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D591D43D2A300F2293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15533D621D43D2A300F2293D /* PedaladadaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15533D641D43D2A300F2293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15533D6D1D43D2A300F2293D /* PedaladadaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15533D5F1D43D2A300F2293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15533D481D43D2A200F2293D /* PedaladadaApp */;
+			targetProxy = 15533D5E1D43D2A300F2293D /* PBXContainerItemProxy */;
+		};
+		15533D6A1D43D2A300F2293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15533D481D43D2A200F2293D /* PedaladadaApp */;
+			targetProxy = 15533D691D43D2A300F2293D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15533D501D43D2A300F2293D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15533D511D43D2A300F2293D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15533D551D43D2A300F2293D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15533D561D43D2A300F2293D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15533D6F1D43D2A400F2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15533D701D43D2A400F2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15533D721D43D2A400F2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedaladadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15533D731D43D2A400F2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedaladadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15533D751D43D2A400F2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedaladadaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedaladadaApp.app/PedaladadaApp";
+			};
+			name = Debug;
+		};
+		15533D761D43D2A400F2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedaladadaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedaladadaApp.app/PedaladadaApp";
+			};
+			name = Release;
+		};
+		15533D781D43D2A400F2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PedaladadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PedaladadaApp;
+			};
+			name = Debug;
+		};
+		15533D791D43D2A400F2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PedaladadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pedalada.PedaladadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PedaladadaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15533D441D43D2A200F2293D /* Build configuration list for PBXProject "PedaladadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15533D6F1D43D2A400F2293D /* Debug */,
+				15533D701D43D2A400F2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15533D711D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15533D721D43D2A400F2293D /* Debug */,
+				15533D731D43D2A400F2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15533D741D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15533D751D43D2A400F2293D /* Debug */,
+				15533D761D43D2A400F2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15533D771D43D2A400F2293D /* Build configuration list for PBXNativeTarget "PedaladadaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15533D781D43D2A400F2293D /* Debug */,
+				15533D791D43D2A400F2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15533D411D43D2A200F2293D /* Project object */;
+}
